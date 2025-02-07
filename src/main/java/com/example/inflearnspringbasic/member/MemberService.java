@@ -8,7 +8,7 @@ public class MemberService {
         this.memberRepository = memberRepository;
     }
 
-    long join(Member member) {
+    public long join(Member member) {
         return memberRepository.save(member);
     }
 
